@@ -368,7 +368,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   finish
 endif
 
-if s:t_Co >= 256
+if 0 == 0
   if !exists('g:xcodedark_green_comments')
     let g:xcodedark_green_comments = 0
   endif
